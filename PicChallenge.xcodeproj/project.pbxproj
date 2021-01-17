@@ -9,12 +9,11 @@
 /* Begin PBXBuildFile section */
 		2FA6472425B354F3002C08A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA6472325B354F3002C08A2 /* AppDelegate.swift */; };
 		2FA6472625B354F3002C08A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA6472525B354F3002C08A2 /* SceneDelegate.swift */; };
-		2FA6472825B354F3002C08A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA6472725B354F3002C08A2 /* ViewController.swift */; };
-		2FA6472B25B354F3002C08A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FA6472925B354F3002C08A2 /* Main.storyboard */; };
 		2FA6472D25B354F5002C08A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FA6472C25B354F5002C08A2 /* Assets.xcassets */; };
 		2FA6473025B354F5002C08A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FA6472E25B354F5002C08A2 /* LaunchScreen.storyboard */; };
-		2FA6473B25B354F6002C08A2 /* PicChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA6473A25B354F6002C08A2 /* PicChallengeTests.swift */; };
 		2FA6474625B354F6002C08A2 /* PicChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA6474525B354F6002C08A2 /* PicChallengeUITests.swift */; };
+		2FA6476A25B35624002C08A2 /* Tournament.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA6476925B35624002C08A2 /* Tournament.swift */; };
+		2FA6476F25B3563A002C08A2 /* TournamentTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA6476E25B3563A002C08A2 /* TournamentTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,17 +37,16 @@
 		2FA6472025B354F3002C08A2 /* PicChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FA6472325B354F3002C08A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2FA6472525B354F3002C08A2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2FA6472725B354F3002C08A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2FA6472A25B354F3002C08A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2FA6472C25B354F5002C08A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FA6472F25B354F5002C08A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2FA6473125B354F5002C08A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2FA6473625B354F6002C08A2 /* PicChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2FA6473A25B354F6002C08A2 /* PicChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicChallengeTests.swift; sourceTree = "<group>"; };
 		2FA6473C25B354F6002C08A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2FA6474125B354F6002C08A2 /* PicChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FA6474525B354F6002C08A2 /* PicChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicChallengeUITests.swift; sourceTree = "<group>"; };
 		2FA6474725B354F6002C08A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FA6476925B35624002C08A2 /* Tournament.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tournament.swift; sourceTree = "<group>"; };
+		2FA6476E25B3563A002C08A2 /* TournamentTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TournamentTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +97,9 @@
 		2FA6472225B354F3002C08A2 /* PicChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				2FA6476825B3560B002C08A2 /* Tournament */,
 				2FA6472325B354F3002C08A2 /* AppDelegate.swift */,
 				2FA6472525B354F3002C08A2 /* SceneDelegate.swift */,
-				2FA6472725B354F3002C08A2 /* ViewController.swift */,
-				2FA6472925B354F3002C08A2 /* Main.storyboard */,
 				2FA6472C25B354F5002C08A2 /* Assets.xcassets */,
 				2FA6472E25B354F5002C08A2 /* LaunchScreen.storyboard */,
 				2FA6473125B354F5002C08A2 /* Info.plist */,
@@ -113,8 +110,8 @@
 		2FA6473925B354F6002C08A2 /* PicChallengeTests */ = {
 			isa = PBXGroup;
 			children = (
-				2FA6473A25B354F6002C08A2 /* PicChallengeTests.swift */,
 				2FA6473C25B354F6002C08A2 /* Info.plist */,
+				2FA6476E25B3563A002C08A2 /* TournamentTest.swift */,
 			);
 			path = PicChallengeTests;
 			sourceTree = "<group>";
@@ -126,6 +123,14 @@
 				2FA6474725B354F6002C08A2 /* Info.plist */,
 			);
 			path = PicChallengeUITests;
+			sourceTree = "<group>";
+		};
+		2FA6476825B3560B002C08A2 /* Tournament */ = {
+			isa = PBXGroup;
+			children = (
+				2FA6476925B35624002C08A2 /* Tournament.swift */,
+			);
+			path = Tournament;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +203,7 @@
 					};
 					2FA6473525B354F6002C08A2 = {
 						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
 						TestTargetID = 2FA6471F25B354F3002C08A2;
 					};
 					2FA6474025B354F6002C08A2 = {
@@ -233,7 +239,6 @@
 			files = (
 				2FA6473025B354F5002C08A2 /* LaunchScreen.storyboard in Resources */,
 				2FA6472D25B354F5002C08A2 /* Assets.xcassets in Resources */,
-				2FA6472B25B354F3002C08A2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FA6472825B354F3002C08A2 /* ViewController.swift in Sources */,
+				2FA6476A25B35624002C08A2 /* Tournament.swift in Sources */,
 				2FA6472425B354F3002C08A2 /* AppDelegate.swift in Sources */,
 				2FA6472625B354F3002C08A2 /* SceneDelegate.swift in Sources */,
 			);
@@ -268,7 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FA6473B25B354F6002C08A2 /* PicChallengeTests.swift in Sources */,
+				2FA6476F25B3563A002C08A2 /* TournamentTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +301,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2FA6472925B354F3002C08A2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2FA6472A25B354F3002C08A2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2FA6472E25B354F5002C08A2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -366,7 +363,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +418,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -474,6 +471,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LQDASF64MT;
 				INFOPLIST_FILE = PicChallengeTests/Info.plist;
@@ -485,6 +483,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = dev.feuer.PicChallengeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PicChallenge.app/PicChallenge";
@@ -496,6 +495,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LQDASF64MT;
 				INFOPLIST_FILE = PicChallengeTests/Info.plist;
